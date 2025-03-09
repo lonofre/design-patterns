@@ -1,7 +1,7 @@
 namespace DesignPatterns.ChainOfResponsibility;
 
 /// <summary>
-/// Just checks
+/// Just checks if the message contains "hello".
 /// </summary>
 public class GreetingChecker : IHandler
 {

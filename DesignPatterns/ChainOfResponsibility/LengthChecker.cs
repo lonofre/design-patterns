@@ -1,5 +1,9 @@
 namespace DesignPatterns.ChainOfResponsibility;
 
+/// <summary>
+/// Checks whether a message meets the maximum required length.
+/// </summary>
+/// <param name="maxLength"></param>
 public class LengthChecker(int maxLength) : IHandler
 {
     
